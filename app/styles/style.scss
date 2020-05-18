@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: indianred;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	display: grid;
+}
+
+li {
+	margin: 2rem;
+}

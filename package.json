@@ -1,0 +1,33 @@
+{
+	"name": "gulp-sass-starter-pack",
+	"version": "1.0.0",
+	"description": "Gulp file starter pack to minify, autoprefix SCSS files to CSS",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ShadeB/Gulp-Sass-starter-pack.git"
+	},
+	"keywords": [
+		"Gulp",
+		"Sass",
+		"autoprefixer",
+		"minify"
+	],
+	"author": "ShadeB",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ShadeB/Gulp-Sass-starter-pack/issues"
+	},
+	"homepage": "https://github.com/ShadeB/Gulp-Sass-starter-pack#readme",
+	"devDependencies": {
+		"autoprefixer": "^9.8.0",
+		"browser-sync": "^2.26.7",
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5"
+	}
+}
